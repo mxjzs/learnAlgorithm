@@ -32,8 +32,8 @@ def test01():
     array3 = [2, 3, 9, 7, 1, 4, 6, 8]
     array4 = []
     array5 = [5, 4, 9, 5, 8, 1, 2, 4, 3, 6, 7]
-    list = [array1, array2, array3, array4, array5]
-    for i in list:
+    list_1 = [array1, array2, array3, array4, array5]
+    for i in list_1:
         print("排序前的数组:", i)
         print("排序后的数组:", bubbleSort(i))
         print()
